@@ -16,7 +16,6 @@ Tehisaru kasutamine mööblitööstuse töö efektiivseks planeerimiseks
 - *a) To fill in the description [below](https://github.com/ai-robotics-estonia/_project_template_/edit/main/README.md#implementation-details)*
 *Tiksoja Puidugrupp manufactures furniture for children and adults. The company's product range includes around 1000 products sold to large B2B buyers all over Europe
 The goal of this project is to develop an (artificial intelligence-based) solution - an expert system that allows automating the creation of a route, recipe and BoM, and later creating an ERP entry based on them.
-*
 - *c) a custom agreement with the AIRE team*
 
 ## Objectives of the Demonstration Project
@@ -34,7 +33,10 @@ The goal of this project is to develop an (artificial intelligence-based) soluti
 
 
 *Data sources (which data was used for the technological solution)*
--  *a)   *
+- a)   Solidworks files
+- b) Data from company ERP
+- c) TPT (Advanced Scheduling and  Planning Software)
+- d) Norm Production times in Excel
 
 *Description and justifictaion of used AI technology*
 -  *a)*
