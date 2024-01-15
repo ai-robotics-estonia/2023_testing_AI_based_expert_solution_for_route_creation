@@ -1,30 +1,40 @@
 *This is a template repository for this organization. Start by replacing the placeholder for the project name with it's actual title.*
 
-# [Demonstration Project title]
+# Expert_solution_for_route_creation (ENG) / Tehisaru kasutamine mööblitööstuse töö efektiivseks planeerimiseks
+Tehisaru kasutamine mööblitööstuse töö efektiivseks planeerimiseks
 
 ## Summary
 
-| Company name | [Company](https://website.link) |
+| Company name | [Tiksoja Puidugrupp AS](https://www.tiksoja.eu/)) |
 | :--- | :--- |
-| Development Team Lead Name | [First name, Surname](https://profile.link) |
-| Development Team Lead e-mail | [Team Member 1](https://profile.link) |
-| Objectives of the Demonstration Project |  |
+| Development Team Lead Name | [Eduard Ševtšenko](https://profile.link) |
+| Development Team Lead e-mail | [eduard.sevtsenko@ut.ee](https://profile.link) |
+| Objectives of the Demonstration Project | Artificial intelligence-based solution - expert system for automating the creation of the production routes with operational times  |
 
 # Each project has an alternative:
 
 - *a) To fill in the description [below](https://github.com/ai-robotics-estonia/_project_template_/edit/main/README.md#implementation-details)*
-*OR*
+*Tiksoja Puidugrupp manufactures furniture for children and adults. The company's product range includes around 1000 products sold to large B2B buyers all over Europe
+The goal of this project is to develop an (artificial intelligence-based) solution - an expert system that allows automating the creation of a route, recipe and BoM, and later creating an ERP entry based on them.
+*
 - *c) a custom agreement with the AIRE team*
 
 ## Objectives of the Demonstration Project
-*Please provide your objectives here.*
+*Artificial intelligence-based solution - expert system for automating the creation of the production routes with operational times.*
+
 
 ## Activities and results of demonstration project
 *Challenge addressed (i.e. whether and how the initial challenge was changed during the project, for which investment the demonstration project was provided)*
--  *a)*
+- a) The modification of todays working routine in product design process to provide Input parameters required for Product Management Information (PMI) generation.
+- b) Implementation of standard features library
+- c) The development of algorithm required for production route generation. (Non written rules)
+- d) The quality of data for AI model training.
+- e) The validity of created alternative production routes*
+
+
 
 *Data sources (which data was used for the technological solution)*
--  *a)*
+-  *a)   *
 
 *Description and justifictaion of used AI technology*
 -  *a)*
