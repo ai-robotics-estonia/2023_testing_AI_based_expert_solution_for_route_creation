@@ -56,8 +56,7 @@ The current concept will be published in AIRE Github repository. University of T
 *Lessons learned (i.e. assessment whether the technological solution actually solved the initial challenge)*
 - a) The Project scope can change and it should be regularly monitored.
 - b)The BA analyst should be available until the Project is finished.
-- c) The team of AI engineers should be available from the beginning of the project.
-*
+- c) The team of AI engineers should be available from the beginning of the project.*
 
 ### Description of User Interface 
 *(i.e. How does the client 'see' the technical result, whether a separate user interface was developed, command line script was developed, was it validated as an experiment, can the results be seen in ERP or are they integrated into work process)*
