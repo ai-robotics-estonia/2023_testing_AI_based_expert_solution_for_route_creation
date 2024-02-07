@@ -16,7 +16,7 @@ Tehisaru kasutamine mööblitööstuse töö efektiivseks planeerimiseks
 - *a) To fill in the description [below](https://github.com/ai-robotics-estonia/_project_template_/edit/main/README.md#implementation-details)*
 *Tiksoja Puidugrupp manufactures furniture for children and adults. The company's product range includes around 1000 products sold to large B2B buyers all over Europe
 The goal of this project is to develop an (artificial intelligence-based) solution - an expert system that allows automating the creation of a route, recipe and BoM, and later creating an ERP entry based on them.
-- *c) a custom agreement with the AIRE team*
+
 
 ## Objectives of the Demonstration Project
 *Artificial intelligence-based solution - expert system for automating the creation of the production routes with operational times.*
@@ -33,7 +33,7 @@ The goal of this project is to develop an (artificial intelligence-based) soluti
 
 
 *Data sources (which data was used for the technological solution)*
-- a)   Solidworks files
+- a) Solidworks files
 - b) Data from company ERP
 - c) TPT (Advanced Scheduling and  Planning Software)
 - d) Norm Production times in Excel
@@ -61,7 +61,7 @@ The current concept will be published in AIRE Github repository. University of T
 
 ### Description of User Interface 
 *(i.e. How does the client 'see' the technical result, whether a separate user interface was developed, command line script was developed, was it validated as an experiment, can the results be seen in ERP or are they integrated into work process)*
--  a)PMI (Product Manufacturing Information) is created during the design process. It is recorded in the Solidworks CAD files and database records. This is the entirety of the data that defines the product geometry and all its required properties. A manufacturing process is designed that will produce the desired product. Traditionally the main interface to the PMI is a product drawing that is interpreted by an engineer. Automated process design procedure needs direct access to the PMI.  Fully automated solution is a very complicated one. 
+-  a) PMI (Product Manufacturing Information) is created during the design process. It is recorded in the Solidworks CAD files and database records. This is the entirety of the data that defines the product geometry and all its required properties. A manufacturing process is designed that will produce the desired product. Traditionally the main interface to the PMI is a product drawing that is interpreted by an engineer. Automated process design procedure needs direct access to the PMI.  Fully automated solution is a very complicated one. 
 The practical solution is streamlining the product design methods in a way that relevant part of the PMI is automatically extracted that will allow to automate making of most of the main production decisions. There are many built in design automation features available in Solidworks. There are also commercially available add-on modules for facilitating the PMI information exchange with downstream database tools. Several such tools and methods were analysed and tested for practical relevance. As a result, several design tools and best practices were implemented, which results in a file structure that is better suited for automatic PMI data extraction. An Add-on program Customtools was purchased and implemented by the company. This satisfies most needs for the data transfer. All the automatically transferable information is saved in the CAD files as custom file properties. Such information is directly referenced both in drawings and in the data transfer files. Customtools module has a report builder function that allows to flexibly organize such data and pass it on to any ERP or AI prototype. This is enough for automating the data transfer on the level that was used in Tiksoja before the current project. However, if the company wants to further automate the manufacturing process design, more information is needed in richer data format that can be easily handled via Custom Property method.  For example, number, size, and position of various drilled holes. Or type, number, and position of chamfered edges. Or the type and position of the surfaces with different surface treatment requirements.  A data format has been developed to aggregate such information and make it available to the rule engine that builds manufacturing routes. The consolidated variable length data will also be recorded as Custom File Properties and /or directly in the transition file that is filled out in the Customtools report generator. Automatic gathering and consolidation such variable length data is possible by writing special custom commands using Solidworks API (Application Programming Interface). Sample programs were written for gathering the hole data and end chamfering information.
 
 - See sample data transfer file. https://www.dropbox.com/scl/fi/voqrsc1lw5sm3dnyubngf/NR02-spets.csv?rlkey=i0ews6kx0czzd8h45thwxvicq&dl=0
