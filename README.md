@@ -45,7 +45,7 @@ The goal of this project is to develop an (artificial intelligence-based) soluti
 -  a)The AI was able to predict the operational time for generated alternative rules. The accuracy of data was validated by historical data. The AI generates the visual of alternative production routes and selects the best (shortest) one.
 
 *Technical architecture (presented graphically, where can also be seen how the technical solution integrates with the existing system)*
--  *a)*
+<img width="576" alt="TechicalArchitecture" src="https://github.com/ai-robotics-estonia/expert_solution_for_route_creation/assets/154315695/b35ab7eb-811d-48a8-ae51-9f621707993d">
 
 *Potential areas of use of technical solution*
 -  a)Follow-up activities and plans for future (e.g. developments, potential for scalability, creation of spin-offs aso)
@@ -75,5 +75,6 @@ The practical solution is streamlining the product design methods in a way that 
 *If you have a unique project or specific requirements that don't fit neatly into the Docker file or description template options, we welcome custom agreements with our AIRE team. This option allows flexibility in collaborating with us to ensure your project's needs are met effectively.*
 
 *To explore this option, please contact our demonstration projects service manager via katre.eljas@taltech.ee with the subject line "Demonstration Project Custom Agreement Request - [Your Project Name]." In your email, briefly describe your project and your specific documentation or collaboration needs. Our team will promptly respond to initiate a conversation about tailoring a solution that aligns with your project goals.*
+
 
 
