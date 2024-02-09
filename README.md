@@ -1,7 +1,7 @@
 *This is a template repository for this organization. Start by replacing the placeholder for the project name with it's actual title.*
 
-# Expert_solution_for_route_creation (ENG) / Tehisaru kasutamine mööblitööstuse töö efektiivseks planeerimiseks
-Tehisaru kasutamine mööblitööstuse töö efektiivseks planeerimiseks
+# Testing of artificial intelligence-based expert solution for route creation
+
 
 ## Summary
 
