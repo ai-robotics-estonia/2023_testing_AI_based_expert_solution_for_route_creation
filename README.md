@@ -48,9 +48,7 @@ The goal of this project is to develop an (artificial intelligence-based) soluti
 <img width="576" alt="TechicalArchitecture" src="https://github.com/ai-robotics-estonia/expert_solution_for_route_creation/assets/154315695/b35ab7eb-811d-48a8-ae51-9f621707993d">
 
 *Potential areas of use of technical solution*
--  a)Follow-up activities and plans for future (e.g. developments, potential for scalability, creation of spin-offs aso)
-Automated PMI extraction features can be developed further to cover additional product features, which then can be a subject for automatic routing.
-The current concept will be published in AIRE Github repository. University of Tartu will work with Tartu Science Park to disseminate the knowledge, promote the concept and encourage and support other companies to develop the idea further. In theory, the solution is not limited to the furniture industry, but applicable to a wide range of manufacturing companies.
+- In theory, the solution is not limited to the furniture industry, but applicable to a wide range of manufacturing companies.
 
 
 *Lessons learned (i.e. assessment whether the technological solution actually solved the initial challenge)*
