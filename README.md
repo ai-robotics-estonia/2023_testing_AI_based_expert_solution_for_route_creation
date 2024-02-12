@@ -64,7 +64,7 @@ The practical solution is streamlining the product design methods in a way that 
 
 - See sample data transfer file. https://www.dropbox.com/scl/fi/voqrsc1lw5sm3dnyubngf/NR02-spets.csv?rlkey=i0ews6kx0czzd8h45thwxvicq&dl=0
 - See sample code for Solidworks hole and chamfer information gathering. https://www.dropbox.com/scl/fi/gx1t5kvvq8mguijcdl08u/PMIExport.swp?rlkey=8zv4cxr5ffagcidnbiq1xh5ee&dl=0
-
+The generated production routes will be imported to the ERP and used for production planning process.
 The aim of the practical solution is to identify the best route and confirm it in the ERP system. In addition to time selection, the algorithm may, in the future, assess the quantity of errors made at a particular workstation and operation in the past. These errors are associated with the route as a configuration. This approach allows avoiding products that are quickly produced based on the route but have a high error rate. This enables greater sustainability, as there is no longer a need to process the same detail multiple times, to fix the mistakes. Those mistakes could be made through the wrong drilling sizes or drilling to the wrong place. 
 
 
