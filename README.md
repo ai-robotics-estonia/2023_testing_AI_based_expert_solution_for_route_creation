@@ -45,8 +45,12 @@ The goal of this project is to develop an (artificial intelligence-based) soluti
 -  a)The AI was able to predict the operational time for generated alternative rules. The accuracy of data was validated by historical data. The AI generates the visual of alternative production routes and selects the best (shortest) one.
 
 *Technical architecture (presented graphically, where can also be seen how the technical solution integrates with the existing system)*
+The presented solution consists of multiple components and algorithms. The first algorithm ensures that all possible routes for creating the product are generated automatically using the information from the product's PMI. In this context, it implies a list of operations or a route. This algorithm adheres to the paradigm of expert systems and is realized within the project through a rule-based engine in Python, see Figure 2.
 
 <img width="576" alt="TechicalArchitecture" src="https://github.com/ai-robotics-estonia/expert_solution_for_route_creation/assets/154315695/b35ab7eb-811d-48a8-ae51-9f621707993d">
+
+The algorithm is divided into two parts. The first part identifies all the modules of operation groups that form a common part from the production perspective.
+The use of modules provides the opportunity to differentiate which operations need to be performed on the same workstation. This distinction is essential for considering the time required for production. For each operation group, there are workstations that correspond to that group. After selecting the modules for the operation groups, the algorithm identifies all workstations located within the selected modules. 
 
 *Potential areas of use of technical solution*
 - In theory, the solution is not limited to the furniture industry, but applicable to a wide range of manufacturing companies.
